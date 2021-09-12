@@ -2,11 +2,13 @@ asgiref==3.4.1
 certifi==2021.5.30
 cffi==1.14.6
 charset-normalizer==2.0.4
+cloudinary==1.26.0
 crispy-forms-gds==0.2.2
 cryptography==3.4.7
 defusedxml==0.7.1
 Django==3.2.6
 django-allauth==0.45.0
+django-cloudinary-storage==0.3.0
 django-crispy-forms==1.12.0
 gunicorn==20.1.0
 idna==3.2
