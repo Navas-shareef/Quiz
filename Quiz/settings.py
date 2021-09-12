@@ -138,7 +138,7 @@ STATIC_URL = '/static/'
 
 #media url to save images anf files
 MEDIA_URL = '/media/' 
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media/images')
 
 
 
