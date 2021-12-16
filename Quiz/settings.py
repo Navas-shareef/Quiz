@@ -137,7 +137,7 @@ STATIC_URL = '/static/'
 
 #media url to save images anf files
 MEDIA_URL = '/media/' 
-DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
+# DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 
@@ -184,11 +184,11 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 SITE_ID = 1
 
 
-CLOUDINARY_STORAGE = {
-    'CLOUD_NAME': 'dikfq7b6u',
-    'API_KEY': '147889377975657',
-    'API_SECRET': 'Hur3UFs2cNYcTeg96AFd58cXPFU'
-}
+# CLOUDINARY_STORAGE = {
+#     'CLOUD_NAME': 'dikfq7b6u',
+#     'API_KEY': '147889377975657',
+#     'API_SECRET': 'Hur3UFs2cNYcTeg96AFd58cXPFU'
+# }
 
 
 
